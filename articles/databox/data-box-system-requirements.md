@@ -34,6 +34,7 @@ The software requirements include supported operating systems, file transfer pro
 
 > [!IMPORTANT] 
 > Connection to Data Box shares is not supported via REST for export orders.
+> NFSv4 as a method to transport data into Databox from NFS clients onpremises is supported, but to copy from Databox to Azure Databox supports only REST based transport to Azure. Azure File share with NFSv4.1 does not support REST for data access/transfer. 
 
 ### Supported storage accounts
 
